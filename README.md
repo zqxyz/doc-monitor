@@ -23,6 +23,6 @@ cd ../ && rm -rf doc-monitor-client
 
 This will place `doc-monitor-client.sh` and `doc-monitor-config.sh` into `/opt/doc-monitor`. You will be prompted to edit the configuration: **you must specify your host address here. The other defaults are fine as is.** It will create a cronjob at boot time to run `doc-monitor-client.sh`. It will start `doc-monitor-client.sh` in the background.
 
-Once running, three dotfiles will be generated for storing data. `.doc_mod_time` stores the most recent modification of any local file. `.rmlist` stores paths of files to be deleted.
+Once running, two dotfiles will be generated for storing data. `.doc_mod_time` stores the most recent modification of any local file. `.rmlist` stores paths of files to be deleted.
 
 ![File diagram](https://zquint.xyz/images/docmondiag.png)
