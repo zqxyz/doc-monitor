@@ -18,7 +18,6 @@ LOCAL_RMLIST=/opt/doc-monitor/.rmlist			# Local copy of rmlist - view readme for
 #   and finish the setup, revisiting this file in /opt/doc-monitor
 #   later, when you have met the criteria.
 HOST=USERNAME@ADDRESS			# Host -- example: user@example.com OR user@192.168.0.27
-HOST_RMLIST=$HOST:/home/ubuntu/rmlist	# Location of rmlist
+HOST_RMLIST=$HOST:/opt/doc-monitor/.rmlist	# Location of rmlist
 HOST_DIR=$HOST:/home/ubuntu/Documents/	# Directory to sync with LOCAL_DIR on client machines
-HOST_DOC_MOD_TIME_FILE=$HOST:/home/ubuntu/pi_doc_mod_time # Location of server's latest file mod timstamp
-
+HOST_DOC_MOD_TIME_FILE=$HOST:/opt/doc-monitor/.pi_doc_mod_time # Location of server's latest file mod timstamp
