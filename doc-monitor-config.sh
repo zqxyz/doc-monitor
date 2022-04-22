@@ -4,7 +4,7 @@
 #	script for syncing local and remote directory
 
 # You must specify username and address to server running host script
-# Read the README! 
+# Read the README 
 HOST=USERNAME@ADDRESS					# Host -- example: user@example.com OR user@192.168.0.27
 HOST_DIR=$HOST:/home/USERNAME/Documents/		# Directory to sync with LOCAL_DIR on client machines
 
